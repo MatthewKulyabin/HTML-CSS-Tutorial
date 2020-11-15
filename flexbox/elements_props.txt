@@ -1,0 +1,22 @@
+order: <number>;
+--> make elems order without touching html
+
+
+flex-grow: <number>;
+--> stretching single element, if there is empty space
+
+
+flex-shrink: <number>;
+--> shrink the specific element, if there isn't empty space
+
+
+flex-basis: <length> | auto;
+--> width and height - dependens from direction
+--> if flex-direction: row; === width
+--> if flex-direction: column; === height
+
+
+flex: none | [<'flex-grow'> <'flex-shrink'>? || <'shrink-basis'>];
+
+
+align-self: auto | flex-start | flex-end | center | baseline | stretch;
