@@ -1,0 +1,91 @@
+.clearfix::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.div {
+	background: red;
+
+	display: inline;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.a1 {
+	width: 500px;
+	height: 500px;
+	background: red;
+
+	position: relative;
+}
+
+.a2 {
+	width: 100px;
+	height: 100px;
+	background: green;
+	position: absolute;
+	right: 0px;
+	right: 10px;
+	bottom: 0px;
+	bottom: 10px;
+	left: 10px;
+	top: 10px;
+
+	top: 0;
+	left: 0;
+
+	z-index: 1;
+
+	cursor: pointer;
+
+	box-shadow: 0px 0px 30px white;
+}
+
+.a3	{
+	width: 200px;
+	height: 200px;
+	background: black;
+	position: absolute;
+
+	z-index: 0;
+}
+
+
+textarea {
+	resize: none;
+}
+
+.b1 {
+	width: 500px;
+	height: 500px;
+	background: red;
+
+	margin-bottom: 10px;
+}
+
+.b2 {
+	background: green;
+	padding: 50px;
+	width: 100%;
+
+	box-sizing: border-box;
+}
+
+.c1 {
+	background: red;
+}
+
+.c2 {
+	background: green;
+	padding: 50px;
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+.c3 {
+	float: left;
+	width: 600px;
+	background: pink
+}

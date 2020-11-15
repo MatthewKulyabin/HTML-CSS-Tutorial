@@ -1,0 +1,12 @@
+div {
+	height: 500px;
+	background: red url('https://cdn1.ozone.ru/s3/multimedia-v/c500/6000365719.jpg') no-repeat 50% 50%;
+	/*background-color: red;
+	background-image: url('https://cdn1.ozone.ru/s3/multimedia-v/c500/6000365719.jpg');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-position: center center;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-size: contain;*/
+}

@@ -1,0 +1,22 @@
+.a1 {
+	background: black;
+	overflow: hidden;
+}
+
+.a2 {
+	background: green;
+	border: 10px solid red;
+
+	padding: 20px;
+	margin: 30px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+
+	margin: 10px 20px; /* top and bottom */
+	margin: 10px 20px 30px; /* first - top; second - left-right; third - bottom */
+	margin: margin: 10px 20px 30px 40px;
+	/* the same for padding */
+	padding: 10px 20px 30px 40px;
+}

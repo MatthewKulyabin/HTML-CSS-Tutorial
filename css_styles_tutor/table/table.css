@@ -1,0 +1,10 @@
+table {
+	/*border-collapse: collapse;*/  /* make no space between cells */
+	border-spacing: 10px; /* make space between cells */
+	table-layout: ;/* tells to browser how to calculate the width of cells */
+	/* fixed */
+}
+
+table td {
+	border: 5px solid red;
+}

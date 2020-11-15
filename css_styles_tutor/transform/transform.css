@@ -1,0 +1,10 @@
+/* translate works with Graphic Card */
+div {
+	background: red;
+
+	transform: rotate(45deg);
+	transform: translateX(50px);
+	transform: translateY(50px);
+	width: 100px;
+	height: 100px;
+}

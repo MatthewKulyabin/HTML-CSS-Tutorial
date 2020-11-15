@@ -1,0 +1,14 @@
+div {
+	background: green;
+}
+
+div:before {
+	content: '0';
+}
+
+div:after {
+	content: '9';
+}
+
+/* quotes - for changing quotes */
+/* counter-reset and counter-increment - for adding numerring to lists */

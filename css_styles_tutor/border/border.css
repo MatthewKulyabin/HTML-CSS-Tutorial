@@ -1,0 +1,13 @@
+div {
+	height: 200px;
+	background: red;
+	border: 10px solid green;
+	border: 10px dashed green;
+	border-left: 10px dashed green;
+
+	border-bottom-style: solid;
+	border-top-width: 30px;
+
+	border-radius: 50px;
+	border-radius: 100%;
+}
